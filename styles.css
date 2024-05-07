@@ -18,7 +18,7 @@ body {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.004);
 }
 
-#workout-cartoon {
+.workout-cartoon {
   height: 414px;
   width: 414px;
 }
@@ -59,7 +59,7 @@ margin-bottom: 40px;
 width: 382px;
 }
 
-.first-button {
+.primary-button {
 background-color: #4B5092;
 width: 252px;
 height: 59px;
@@ -155,9 +155,130 @@ border: none;
 font-size: 1.1rem;
 text-decoration: none;
 padding: 15px 60px;
+font-weight: 600;
 }
 
 .third-athlete-container {
   width: 100%;
   text-align: center;
 }
+
+.fourth-landing-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.third-cartoon {
+  margin-top: 10rem;
+}
+
+.h1-fourth-landing {
+  padding-top: 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.title-fourth-landing {
+font-size: 24px;
+line-height: 28.8px;
+margin: 0;
+padding-top: 2.5rem;
+padding-left: 2rem;
+}
+
+.p-fourth-landing {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-left: 2rem;
+}
+
+.fourth-small-container {
+width: 382px;
+height: 260px;
+top: 3584px;
+left: 16px;
+gap: 0px;
+border-radius: 30px;
+opacity: 0px;
+background-color: #e4f0ff;
+margin: 2rem auto;
+
+}
+
+.fourth-small-container:nth-of-type(2),
+.fourth-small-container:nth-of-type(3){
+  background-color: #e8edfe;
+}
+
+.primary-button-fourth {
+  margin: 1rem auto;
+  display: block;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.margin-div {
+  height: 1rem;
+}
+.first-margin-div {
+  height: 6rem;
+}
+
+.last-landing {
+  height: 100vh;
+  background-color: #f1f7ff;
+}
+
+.last-header {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.footer-tags {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 3rem;
+  color: black;
+  font-weight: 600;
+}
+
+.last-title {
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+margin: 0;
+margin-bottom: 1rem;
+}
+
+.last-icons { 
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.last-icons img{
+  padding: 0.5rem;
+  background: #e5effe;
+  border-radius: 50%;
+  margin: 1rem 1rem;
+}
+
+.last-p {
+  margin-top: 5rem;
+}
+
+#email {
+width: 255px;
+height: 40px;
+border-radius: 10px;
+border: none;
+padding-left: 1rem;
+}
+
+input{    
+  background: url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat;
+  height:15px;
+  }
