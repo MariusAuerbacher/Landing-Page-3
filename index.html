@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<div lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Landing Page</title>
 </head>
-<div>
+
   <div class="main-content">
     <div class="header-container">
       <h1 class="first-header">Max<span id="strong">Strong</span></h1>
@@ -18,17 +18,16 @@
       </div>
     </div>
 
-    <div>
-      <div class="desktop-main">
+
+
+   <div class="desktop-main">
         <img class="workout-cartoon" src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="workout cartoon">
         <div class="desktop-main-text">
-          <h2 class="bold-text">The time to get <span>strong</span> has come</h2>
-          <p class="small-text p-landing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim. </p>
+         <h2 class="bold-text">The time to get <span>strong</span> has come</h2>
+          <p  class="p-landing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim. </p>
           <a class="primary-button" href="#">Contact Us</a>
         </div>
       </div>
-    </div>
-
 
     <div class="first-margin-div"></div>
 
@@ -46,7 +45,7 @@
     <div class="third-landing-container">
       <div class="third-landing-container-small">
         <h1 class="h1-third-landing">Alexander Arnold</h1>
-        <p class="p-landing p-landing-third">35 y.o. // 10 years experiense</p>
+        <p class="p-landing-third">35 y.o. // 10 years experiense</p>
         <p class="p-landing-third-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim. <br>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
         <a class="first-button second-button" href="#">Sign up for training</a>
@@ -54,11 +53,10 @@
         <div class="third-athlete-container">
           <img id="third-athlete" src="https://assets.codepen.io/6060109/trainer.png" alt="athlete picture">
         </div>
-
     </div>
 
     
-    <div class="fourth-landing-container">
+    <div class="fourth-landing-container mobile-only">
       <img class="workout-cartoon third-cartoon" src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="athlete cartoon">
       <h1 class="h1-second-landing h1-fourth-landing"><span>The benefits</span> of exercise</h1>
       <div class="fourth-small-container">
@@ -83,32 +81,84 @@
       </div>
       <a class="primary-button primary-button-fourth" href="#">Get now</a>
       <div class="margin-div"></div>
-   
-    
-    
-    <div class="last-landing">
-      <hr>
-      <h1 class="first-header last-header">Max<span>Strong</span></h1>
-      <a class="footer-tags" href="#">Home</a>
-      <a class="footer-tags" href="#">About Us</a>
-      <a class="footer-tags" href="#">Contact</a>
-      <a class="footer-tags" href="#">Our trainings</a>
-      <a class="footer-tags" href="#">Price</a>
-      <a class="footer-tags" href="#">FAQ</a>
-      <h6 class="last-title">Stay up to date</h6>
-      <label for="email"></label>
-      <input type="email" id="email" placeholder="Your email address">
-
-      <div class="last-icons">
-        <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="instagram icon">
-        <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="dribble icon">
-        <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="twitter icon">
-        <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="youtube icon">
-      </div>
-      <p class="last-p">© Copyright © 2021 MaxStrong.</p>
-  
     </div>
+
+
+    <div>
+      <div class="outer-container">
+        <div class="content-section-container border-bottom benefits-container">
+          <div class="simple-flex">
+            <h2 class="desktop-only bm-40"><span class="header-bold">The benefits</span> of exercise</h2>
+             <a class="btn btn-primary desktop-only" href="#">Get now</a>
+          </div>
+          
+          <div class="panels-img-container">
+            <img id="benefits-cartoon"src="https://assets.codepen.io/6060109/workout-vector-3.png">
+    
+             <h2 class="mobile-only bm-40"><span class="header-bold">The benefits</span> of exercise</h2>
+             <div class="panels">
+               <div class="panel panel-blue">
+                 <h5>Increases business flexibility</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+              </div>
+    
+               <div class="panel panel-purple">
+                 <h5>Improves mental health</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+              </div>
+    
+               <div class="panel panel-purple">
+                 <h5>Provides more energy throughout the day</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+              </div>
+    
+               <div class="panel panel-blue">
+                 <h5>Helps to find new friends</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="margin-div main-content">
+          <hr>
+        </div>
+        
+    </div>
+   
+   
+    <div class="last-landing main-content">
+          <div class="last-left">
+            <h1 class="first-header last-header">Max<span>Strong</span></h1>
+            <p class="last-p desktop-only">© Copyright © 2021 MaxStrong.</p>
+          </div>
+          <div class="last-tags">
+            <a class="footer-tags" href="#">Home</a>
+            <a class="footer-tags" href="#">About Us</a>
+            <a class="footer-tags" href="#">Contact</a>
+            <a class="footer-tags" href="#">Our trainings</a>
+            <a class="footer-tags" href="#">Price</a>
+            <a class="footer-tags" href="#">FAQ</a>
+          </div>
+          <div class="last-search">
+            <h6 class="last-title">Stay up to date</h6>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Your email address">
+          </div>
+          <div class="last-icons">
+            <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="instagram icon">
+            <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="dribble icon">
+            <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="twitter icon">
+            <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="youtube icon">
+          </div>
+    
+        <p class="last-p mobile-only">© Copyright © 2021 MaxStrong.</p>
+     
+  
   </div>
+  </html>
   
 
  

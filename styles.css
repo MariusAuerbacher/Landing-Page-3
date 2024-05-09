@@ -166,6 +166,7 @@ font-weight: 600;
 .fourth-landing-container {
   height: 100vh;
   width: 100%;
+  background-color: #f4f9ff;
 }
 
 .third-cartoon {
@@ -223,13 +224,14 @@ margin: 2rem auto;
 .margin-div {
   height: 1rem;
 }
-.first-margin-div {
-  height: 6rem;
+.margin-div hr {
+  margin-bottom: 5rem;
 }
 
 .last-landing {
   height: 100vh;
   background-color: #f1f7ff;
+  margin-top: 0.5rem;
 }
 
 .last-header {
@@ -287,8 +289,15 @@ input{
   display: none;
 }
 
+.desktop-only{
+  display: none;
+}
+
   
   @media only screen and (min-width: 992px) {
+    body {
+      background-color: #f4f9ff;
+    }
     .main-content {
       max-width: 80%;
     }
@@ -301,6 +310,8 @@ input{
 
    .first-header {
       text-align: left;
+      padding-top: 0;
+      margin-top: 25px;
    }
    
    .nav-bar {
@@ -318,7 +329,7 @@ input{
    }
 
    .nav-bar img {
-    margin-right: 1rem;
+    margin-right: 3rem;
    }
 
    .workout-cartoon{
@@ -331,13 +342,19 @@ input{
     display: flex;    
     align-items: center;
     flex-direction: row-reverse;
+    margin-top: 3rem;
    }
 
    .p-landing {
-    text-align: center;
+  
+    font-weight: 800; 
     font-size: 12px;
     line-height: 20px;
-    padding-right: 14.5rem;
+    width: 80%;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    width: 382px;
    }
 
    .bold-text {
@@ -351,7 +368,6 @@ input{
    .second-landing-container {
     display: flex;
     justify-content: space-between;
-    height: 30vh;
    }
 
    #second-img {
@@ -382,6 +398,7 @@ input{
 
     .desktop-main-text {
       text-align: left;
+      width: 60%;
     }
 
     .primary-button {
@@ -401,10 +418,15 @@ input{
 
     #third-athlete{
       height: 550px;
+      margin: -0.2rem;
     }
 
     .p-landing-third-lorem {
       text-align: left;
+    }
+
+    .p-landing-third {
+      text-align: center;
     }
 
     .third-landing-container-small {
@@ -414,4 +436,197 @@ input{
     .third-landing-container .second-button {
       margin-left: 12rem;
     }
+
+    .mobile-only{
+      display: none;
+    }
+
+    .desktop-only {
+      display: block;
+    }
+    
+    .h2{
+      font-weight: 500;
+      color: #111235;
+      font-size: 48px;
+  margin-bottom: 15px;
+    } 
+    .fourth-main{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .fourth-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 5rem;
+    }
+    .h1-fourth-landing{
+      display:inline;
+    }
+
+    .fourth-landing-container{
+      height: 90vh;
+    }
+    .primary-button-fourth{
+      margin: 0;
+      display:inline;
+    }
+
+    .third-cartoon {
+      width: 30%;
+    }
+
+    .fourth-small-container {
+      max-width: 320px
+    }
+    .last-landing{
+      display: flex;
+      justify-content: space-between;
+      height: 30vh;
+    }
+
+    .last-landing .last-tags{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 30%;
+    }
+    .last-icons {
+      display: none;
+    }
+
+    .last-p {
+      margin-top: 0;
+    }
+    .last-left{
+      text-align: left;
+      width: 30%;
+    }
+
+    .last-tags {
+      height: 200px;
+      width: 10%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .last-search {
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      text-align: left;
+      width: 30%;
+      padding-top: 2rem;
+    }
+    
+    
+    .benefits-cartoon{
+      width: 225px;
+height: 225px;
+
+    }
+
+
+    .outer-container {
+      margin: 0 10%;
+    }
+
+    .header-bold {
+      font-weight: 700;
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+    
+    .btn-primary {
+      background-color: #4B5092;
+      color: white;
+    }
+    
+    .bm-40 {
+      margin-bottom: 40px;
+      font-size: 38px;
+      font-weight: 500;
+    }
+    .btn {
+      text-decoration: none;
+      display: block;
+      width: 225px;
+      padding: 15px 0;
+      border-radius: 50px;
+      margin: 30px auto;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .btn {
+      margin: 35px 0;
+    }
+    .simple-flex {
+      display: flex;
+      justify-content: space-between;    
+      align-items: center;
+      margin-top: 5rem;
+    }
+    .simple-flex > * {
+      margin: 0;
+    }
+    .panels-img-container {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      margin-top: 50px;
+      margin-bottom: 5rem;
+    }
+    
+    .panels-img-container img {
+      width: 40%;
+    }
+    
+    .gradient-blue-bg {
+      background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    }
+    
+    .gradient-blue-bg img {
+      margin-bottom: -5px;
+    }
+    
+    .panel {
+      border-radius: 30px;
+      padding: 30px 20px;
+      margin-bottom: 20px;
+    }
+    
+    .panel h5 {
+      width: 85%;
+    }
+    
+    .panel-blue {
+      background: #E4F0FF;
+    }
+    
+    .panel-purple {
+      background: rgba(114, 122, 239, 0.1);
+    }
+    .panels {
+      display: flex;
+      width: 70%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .panel {
+      width: 49%;
+      box-sizing: border-box;
+    }
+    #benefits-cartoon {
+      width: 250px;
+      height: 355px;
+      object-fit:contain;
+      margin-left: 2rem;
+    }
+ 
+    
+    
   }
